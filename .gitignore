@@ -1,0 +1,32 @@
+# Virtuális környezet
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Titkok, környezeti változók
+.env
+*.key
+
+# Build / csomagolás
+build/
+dist/
+*.egg-info/
+
+# OS fájlok
+.DS_Store
+Thumbs.db
+
+# Esetleges vektoradatbázis / cache
+*.npy
+*.faiss
+chroma/
+*.lancedb
